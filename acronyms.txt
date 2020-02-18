@@ -35,7 +35,6 @@ DMCS	Data Management Control System
 DMS	Data Management Subsystem
 DMTN	DM Technical Note
 DOE	Department of Energy
-DOI	Digital Object Identifier \url{https://www.doi.org/}
 DP1	Data Preview One
 DP2	Data Preview Two
 DPAC	Data Processing and Analysis Consortium (Gaia)
@@ -73,10 +72,10 @@ ISO	International Standards Organisation
 ISR	Instrument Signal Removal
 IT	Information Technology
 ITC	Information Technology Center
-JOG	Joint Oversight Group
 JWST	James Webb Space Telescope (formerly known as NGST)
 K8S	Kubernetes provisioning system
 KPMO	Kitt Peak Mountain Operations
+KPNO	Kitt Peak National Observatory
 LBTO	Large Binocular Telescope Observatory
 LDF	LSST Data Facility
 LDM	LSST Data Management (Document Handle)
@@ -92,11 +91,10 @@ LSSTPO	LSST Project Office
 M1M3	Primary Mirror Tertiary Mirror
 M2	Secondary Mirror
 MAST	Mikulski Archive for Space Telescopes
-MB	MegaByte
 MMT	Multiple Mirror Telescope
+MPS/AST	NSF Mathematical and Physical Sciences directorate’s Division of Astronomical Sciences
 MREFC	Major Research Equipment and Facility Construction
 NASA	National Aeronautics and Space Administration
-NCOA	National Center for Optical-Infrared Astronomy
 NCSA	National Center for Supercomputing Applications
 NGSS	Next Generation Science Standards \url{https://www.nextgenscience.org/}
 NIR	Near Infra Red
@@ -104,6 +102,7 @@ NMOC	NSF's OIR Lab Management Oversight Council
 NOAO	National Optical Astronomy Observatories (USA)
 NSF	National Science Foundation
 NSF's OIR Lab	NSF's National Optical-Infrared Astronomy Research Laboratory; \url{https://nationalastro.org}
+NUV	Near Ultra Violet
 OC	AURA Observatory Council
 OCS	Observatory Control System
 OIR	Optical Infra Red
@@ -131,12 +130,12 @@ SDSS	Sloan Digital Sky Survey
 SHE	Safety, Health, and Environmental
 SLAC	SLAC National Accelerator Laboratory (formerly Stanford Linear Accelerator Center; SLAC is now no longer an acronym)
 SN	SuperNovae
+SOAR	Southern Astrophysical Research Telescope
 SOS	Science Operations Services
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language, for interrogating relation databases
 SQuaSH	Science Quality Analysis Harness
 SRD	LSST Science Requirements; LPM-17
-SSC	Survey Strategy Committee
 STEM	Science, Technology, Engineering and Math
 SV	Science Validation
 SW	Software (also denoted S/W)
@@ -147,6 +146,7 @@ TMT	Thirty Meter Telescope
 TOPCAT	Tool for OPerations on Catalogues And Tables
 UK	United Kingdom
 UKIDSS	UKIRT Infrared Deep Sky Survey
+URL	Universal Resource Locator
 US	United States
 USDF	United States Data Facility
 UW	University of Washington
@@ -159,7 +159,6 @@ WL	Weak gravitational Lens cosmic shear
 WMS	Work Management System
 WOUCAO	Windows on the Universe Center for Astronomy Outreach
 ZTF	Zwicky Transient Facility
-au	astronomical unit
 cloud	A visible mass of condensed water vapor floating in the atmosphere, typically high above the ground or in interstellar space acting as the birthplace for stars.  Also a way of computing (on other peoples computers leveraging their services and availability).
 open source software	Open source software is a type of software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Note that this is \emph{not} necessarily the same as open to contribution (see open development).
 reproducibility	(this one should have many definitions and we have to say WHICH version we are talking about) The ability to combine the same code and data and get the same result, or the ability to use the same code with different data to enforce a result, or there may be others
