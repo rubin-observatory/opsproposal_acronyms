@@ -1,6 +1,7 @@
 2D	Two-dimensional
 AAG	Astronomy and Astrophysics Research Grants, an NSF program
 AAS	American Astronomical Society
+ACGIH	American Conference of Governmental Industrial Hygienists
 ADS	Astrophysics Data System
 AI	Artificial Intelligence, used to cover many machine learning algorithms
 AJ	The Astronomical Journal
@@ -83,6 +84,7 @@ IPAC	No longer an acronym; science and data center at Caltech
 IR	Infra Red
 IRAF	Image Reduction and Analysis Facility,  a collection of software written at the National Optical Astronomy Observatory (NOAO) geared towards the reduction of astronomical images in pixel array form.
 IRSA	Infrared Science Archive
+ISO	International Standards Organisation
 ISR	Instrument Signal Removal
 IT	Information Technology
 ITAR	International Traffic in Arms Regulations
@@ -91,6 +93,7 @@ IUSE	Improving Undergraduate STEM Education
 IaS	Infrastructure as a Service
 JOG	Joint Oversight Group
 JWST	James Webb Space Telescope (formerly known as NGST)
+K8S	Kubernetes provisioning system
 LDF	LSST Data Facility
 LDM	LSST Data Management (Document Handle)
 LHC	Large Hadron Collider (at CERN)
@@ -104,6 +107,7 @@ LSST	Large Synoptic Survey Telescope
 LSSTC	LSST Corporation, a not for profit organisation associated with LSST
 LSSTPO	LSST Project Office
 LUVOIR	The Large UV/Optical/IR Surveyor - concept mission.
+M1M3	Primary Mirror Tertiary Mirror
 M2	Secondary Mirror
 MAST	Mikulski Archive for Space Telescopes
 MB	MegaByte
@@ -142,6 +146,7 @@ PHP	a popular general-purpose scripting language that is especially suited to we
 PI	Principle Investigator
 PLATO	PLAnetary Transits and Oscillations of stars, the third medium-class mission in ESA's Cosmic Vision programme.
 PMO	Project Management Office
+POP	Project Operating Plan
 PPDB	Prompt Products DataBase
 PSF	Point Spread Function,  describes the response of an imaging system to a point source or point object.
 PVI	Processed Visit Image
@@ -155,6 +160,7 @@ SDQA	Science Data Quality Assessment
 SDSS	Sloan Digital Sky Survey
 SHE	Safety, Health, and Environmental
 SKA	Square Kilometer Array
+SLAC	SLAC National Accelerator Laboratory (formerly Stanford Linear Accelerator Center; SLAC is now no longer an acronym)
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language, for interrogating relation databases
 SQuaSH	Science Quality Analysis Harness
@@ -172,6 +178,7 @@ TOPCAT	Tool for OPerations on Catalogues And Tables
 TPU	Tensor Processing Unit , a proprietary type of processor designed by Google in 2016 for use with neural networks and in machine learning projects
 UA	University of Arizona
 UK	United Kingdom
+UKIDSS	UKIRT Infrared Deep Sky Survey
 US	United States
 UV	Ultra Violet
 UW	University of Washington

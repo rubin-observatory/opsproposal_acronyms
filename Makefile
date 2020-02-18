@@ -4,5 +4,5 @@ txt=$(filter-out $(wildcard *acronym.txt) , $(wildcard *.txt))
 all: acronyms.txt
 
 acronyms.txt :$(txt) myacronyms.txt
-	generateAcronyms.py -n $(txt) 
+	generateAcronyms.py -t "OPS LSST" -n $(txt) 
 
