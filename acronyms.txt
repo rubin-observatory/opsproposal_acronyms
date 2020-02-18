@@ -1,51 +1,39 @@
-2D	Two-dimensional
-AAG	Astronomy and Astrophysics Research Grants, an NSF program
 AAS	American Astronomical Society
 ACGIH	American Conference of Governmental Industrial Hygienists
 ADS	Astrophysics Data System
-AI	Artificial Intelligence, used to cover many machine learning algorithms
 AJ	The Astronomical Journal
 ALMA	Atacama Large Millimeter Array (ESO)
 AMCL	AURA Management Council for LSST
-APC	activities, projects, or state of the profession considerations - wrt. the decadal survey
 API	Application Programming Interface.  Usually this is either "web API" (meaning how you access/update data via http) or "software API" (meaning how you call the function/class/etc in a particular programming language or library), although often only "API" is used and the prefix is implicit.
-APL	Apache Public License
-ATLAS	The Asteroid Terrestrial-impact Last Alert System
 AU	deprecated acronym for astronomical unit; use au instead
 AURA	Association of Universities for Research in Astronomy
-AWS	Amazon Web Services, one of the largest cloud computing providers.
 Authentication	The action of showing who you are and an person, mission, or other entity
 Authorization	The action of allowing an authorized or anonymous entity access to data or services
 B	Byte (8 bit)
-CAOM	Common Archive Observation Model \url{http://www.opencadc.org/caom2/}
+BNL	Brookhaven National Laboratory
 CAS	Central Administrative Services
 CC	Change Control
 CC-IN2P3	Centre de Calcul de l'IN2P3
 CCB	Change Control Board
 CCD	Charge-Coupled Device
+CCS	Camera Control System
 CEC	International in-kind Contribution Evaluation Committee
 CERN	European Organization for Nuclear Research
-CI	cyberinfrastructure
-CMB	Cosmic Microwave Background
-CS	Computer Science
-CSSI	Cyberinfrastructure for Sustained Scientific Innovation  \url{https://www.nsf.gov/pubs/2019/nsf19548/nsf19548.htm}
-CTA	Cherenkov Telescope Array \url{https://www.cta-observatory.org/}
+CMMS	Computerized Maintenance Management System
 CTIO	Cerro Tololo Inter-American Observatory
 Citizen Science	- Amanda, Arfon, Meg?,
-Commodity Computing	Computing bought off the shelf not specific for astronomy, could be infrastructure as a service (ias) bough from a cloud vendor.
-Container	- Niall Gaffney
 DAC	Data Access Center
 DAQ	Data Acquisition System
 DES	Dark Energy Survey
+DESC	Dark Energy Science Collaboration
 DESI	Dark Energy Spectroscopic Instrument
+DF	Data Facility
 DIA	Difference Image Analysis
-DIBBs	Data Infrastructure Building Blocks
 DKIST	Daniel K. Inouye Solar Telescope (formerly the Advanced Technology Solar Telescope, ATST)
 DM	Data Management
 DMCS	Data Management Control System
 DMS	Data Management Subsystem
 DMTN	DM Technical Note
-DNN	Deep Neural Network
 DOE	Department of Energy
 DOI	Digital Object Identifier \url{https://www.doi.org/}
 DP1	Data Preview One
@@ -54,51 +42,46 @@ DPAC	Data Processing and Analysis Consortium (Gaia)
 DPDD	Data Product Definition Document
 DR	Data Release
 DRP	Data Release Production
-DVCS	Distributed Version Control System, a form of version control where the complete codebase - including its full history - is mirrored on every developer's computer
 DWDM	Dense Wave Division Multiplex
 Docker	A popular implementation of container technology.
 EFD	Engineering and Facility Database
-ELT	Extremely Large Telescope
+EPA	Environmental Protection Agency
 EPO	Education and Public Outreach
 ESA	European Space Agency
-EU	European Union
-FITS	Flexible Image Transport System,  is an open standard defining a digital file format useful for storage, transmission and processing of data. Files are formatted as tables or 2D images
+FFRDC	Federally Funded Research and Development Center
 FIU	Florida International University
-FORCE11	FORCE11 is a community of scholars, librarians, archivists, publishers and research funders interested in the Future of Research Communications and e-Scholarship
+FOA	Facilities Operations in Arizona
+FOH	Facilities Operations in Hawai‘i
 FPGA	Field Programmable Gate Array, an integrated circuit which is fairly easily configurable.
 FTE	Full-Time Equivalent
+FY	Financial Year
+GEANT	pan-European data network for the research and education community
+GMT	Giant Magellan Telescope
 GNU	GNU's Not Unix! An operating system and an extensive collection of free computer software
-GPL	GNU Public License
 GW	Gravity Wave
 Gb	Gigabit
 HEP	 High Energy Physics
 HPC	High Performance Computing
-HTC	High Throughput  Computing
+HR	Human Resources
 HTML	HyperText Markup Language
 I\&T	Integration and Test
-IAM	Identity and Access Management
 IAU	International Astronomical Union
-IDL	Interactive Data Language, a programming language used for data analysis. Harris Geospatial \footnote{\url{https://www.harrisgeospatial.com/Software-Technology/IDL}}
 IN2P3	Institut National de Physique Nucléaire et de Physique des Particules
 IPAC	No longer an acronym; science and data center at Caltech
-IR	Infra Red
-IRAF	Image Reduction and Analysis Facility,  a collection of software written at the National Optical Astronomy Observatory (NOAO) geared towards the reduction of astronomical images in pixel array form.
 IRSA	Infrared Science Archive
 ISO	International Standards Organisation
 ISR	Instrument Signal Removal
 IT	Information Technology
-ITAR	International Traffic in Arms Regulations
 ITC	Information Technology Center
-IUSE	Improving Undergraduate STEM Education
-IaS	Infrastructure as a Service
 JOG	Joint Oversight Group
 JWST	James Webb Space Telescope (formerly known as NGST)
 K8S	Kubernetes provisioning system
+KPMO	Kitt Peak Mountain Operations
+LBTO	Large Binocular Telescope Observatory
 LDF	LSST Data Facility
 LDM	LSST Data Management (Document Handle)
+LDO	LSST Document Operations (Document Handle)
 LHC	Large Hadron Collider (at CERN)
-LIGO	The Laser Interferometer Gravitational-Wave Observatory
-LISA	Laser Interferometer Space Antenna - ESA mission for 2030's
 LPM	LSST Project Management (Document Handle)
 LSE	LSST Systems Engineering (Document Handle)
 LSP	LSST Science Platform
@@ -106,102 +89,78 @@ LSR	LSST System Requirements; LSE-29
 LSST	Large Synoptic Survey Telescope
 LSSTC	LSST Corporation, a not for profit organisation associated with LSST
 LSSTPO	LSST Project Office
-LUVOIR	The Large UV/Optical/IR Surveyor - concept mission.
 M1M3	Primary Mirror Tertiary Mirror
 M2	Secondary Mirror
 MAST	Mikulski Archive for Space Telescopes
 MB	MegaByte
-MCMC	Markov Chain Monte Carlo, a class of algorithms for sampling from a probability distribution.
-ML	Machine Learning (see also AI)
-MMA	Multi Messenger Astronomy
+MMT	Multiple Mirror Telescope
 MREFC	Major Research Equipment and Facility Construction
-MSE	Maunakea Spectroscopic Explorer
-NAS	Neural Architecture Search
 NASA	National Aeronautics and Space Administration
-NASA ROSES	Research Opportunities in Earth and Space Science
 NCOA	National Center for Optical-Infrared Astronomy
 NCSA	National Center for Supercomputing Applications
 NGSS	Next Generation Science Standards \url{https://www.nextgenscience.org/}
-NGVLA	Next Generation Very Large Array \url{https://science.nrao.edu/futures/ngvla}
 NIR	Near Infra Red
+NMOC	NSF's OIR Lab Management Oversight Council
 NOAO	National Optical Astronomy Observatories (USA)
 NSF	National Science Foundation
 NSF's OIR Lab	NSF's National Optical-Infrared Astronomy Research Laboratory; \url{https://nationalastro.org}
-NSTA	National Science Teachers Association
-NYU	New York University
+OC	AURA Observatory Council
 OCS	Observatory Control System
-ODBC	Open DataBase Connectivity, a standard API for SQL databases.
 OIR	Optical Infra Red
+OMB	Office of Management and Budget
 OODS	Observatory Operations Data Service
+OPSTN	Operations Technical Note
 OS	Operating System
 OSS	Observatory System Specifications; LSE-30
-Object Storage	A storage architecture that stores files as objects (opposed to a hierarchy etc.) commonly provided by cloud services, i.e AWS S3 (Simple Storage Service) or Google Compute Cloud "Cloud Storage".
-OpenEXR	a high dynamic range raster file format, released as an open standard along with a set of software tools created by Industrial Light \& Magic (ILM) \url{http://www.openexr.com/index.html}
-P5	The Particle Physics Project Prioritization Panel is a scientific advisory panel tasked with recommending prioritization for U.S. investment in particle physics research, on the basis of various funding scenarios.  The last full report was in 2014: \url{https://www.usparticlephysics.org/resources/}.
-PASP	Publications of the Astronomical Society of the Pacific
 PB	PetaByte
 PCW	Project Community Workshop
 PDF	Probability Density Function
-PHP	a popular general-purpose scripting language that is especially suited to web development.
 PI	Principle Investigator
-PLATO	PLAnetary Transits and Oscillations of stars, the third medium-class mission in ESA's Cosmic Vision programme.
 PMO	Project Management Office
 POP	Project Operating Plan
 PPDB	Prompt Products DataBase
 PSF	Point Spread Function,  describes the response of an imaging system to a point source or point object.
 PVI	Processed Visit Image
-Pan-STARRS	Panoramic Survey Telescope and Rapid Response System
 QA	Quality Assurance
+RENATER	Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche
 REUNA	Red Universitaria Nacional
-S3	Structured, imperative high level computer programming language, used as implementation language for the Virtual Machine Environment (VME) operating system
 SAC	Science Advisory Committee
 SAO	Smithsonian Astrophysical Observatory
 SDQA	Science Data Quality Assessment
 SDSS	Sloan Digital Sky Survey
 SHE	Safety, Health, and Environmental
-SKA	Square Kilometer Array
 SLAC	SLAC National Accelerator Laboratory (formerly Stanford Linear Accelerator Center; SLAC is now no longer an acronym)
+SN	SuperNovae
+SOS	Science Operations Services
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language, for interrogating relation databases
 SQuaSH	Science Quality Analysis Harness
 SRD	LSST Science Requirements; LPM-17
+SSC	Survey Strategy Committee
 STEM	Science, Technology, Engineering and Math
 SV	Science Validation
 SW	Software (also denoted S/W)
-Schema	- Niall Gaffney -The definition of the metadata and linkages between datasets and metadata entities in a collection of data or archive
 TB	TeraByte
 TBD	To Be Defined (Determined)
-TESS	Transiting Exoplanet Survey Satellite,  a space telescope for NASA's Explorer program
+TCS	Telescope Control System
 TMT	Thirty Meter Telescope
-TOMS	Telescope Observing Management System
 TOPCAT	Tool for OPerations on Catalogues And Tables
-TPU	Tensor Processing Unit , a proprietary type of processor designed by Google in 2016 for use with neural networks and in machine learning projects
-UA	University of Arizona
 UK	United Kingdom
 UKIDSS	UKIRT Infrared Deep Sky Survey
 US	United States
-UV	Ultra Violet
+USDF	United States Data Facility
 UW	University of Washington
 VISTA	Visible and Infrared Survey Telescope for Astronomy
 VLT	Very Large Telescope (ESO)
-VME	Virtual Machine Environment
-Value Added	A catalog or data product generated by the science community, based on datasets output by surveys or archives. Ideally will be integrated into data archive so it can be shared within the community.
+VST	VLT Survey Telescope
 WAN	Wide Area Network
 WBS	Work Breakdown Structure
-WFIRST	Wide Field Infrared Survey Telescope
+WL	Weak gravitational Lens cosmic shear
+WMS	Work Management System
+WOUCAO	Windows on the Universe Center for Astronomy Outreach
 ZTF	Zwicky Transient Facility
 au	astronomical unit
 cloud	A visible mass of condensed water vapor floating in the atmosphere, typically high above the ground or in interstellar space acting as the birthplace for stars.  Also a way of computing (on other peoples computers leveraging their services and availability).
-cold storage	Data moved to cold storage means data moved to cheaper slower storage such as tape. The assumption is this is no longer accessed frequently.
-community software	Software developed for and shared among a large group of relatively like-minded users (e.g. astronomers). Typically, but not necessarily, open source software and open development-based.
-container	A container is a software package that contains everything the software needs to run. This includes the executable program as well as system tools, libraries, and settings. ... For example, a container that includes PHP and MySQL can run identically on both a Linux computer and a Windows machine.
-cyberinfrastructure	Sometimes denoted CI, A term first used by the US National Science Foundation (NSF), and it typically is used to refer to information technology systems that provide particularly powerful and advanced capabilities.
-git	The most widely used DVCS software
-interoperability	the ability of systems or software to exchange and make use of information between them.
-open development	A process for developing software that emphasizes all code contribution and decision-making be done in the open, available to as wide a group as possible (This usually means anyone with internet access).
 open source software	Open source software is a type of software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Note that this is \emph{not} necessarily the same as open to contribution (see open development).
-parquet	Parquet File Format Hadoop. Parquet, an open source file format for Hadoop. Parquet stores nested data structures in a flat columnar format. Compared to a traditional approach where data is stored in row-oriented approach, parquet is more efficient in terms of storage and performance.
 reproducibility	(this one should have many definitions and we have to say WHICH version we are talking about) The ability to combine the same code and data and get the same result, or the ability to use the same code with different data to enforce a result, or there may be others
 software	The programs and other operating information used by a computer.
-valley of death	Most startups fail within three years. Funding is easier in year one and profitability often takes four years, if they get past that they are out of the valley of death. Many technology problems face a similar adoption problem
-version control	The management of changes to documents, computer programs, and other collections of information. Changes are usually identified by a number or letter code. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and merged
