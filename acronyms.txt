@@ -13,9 +13,18 @@ AOC	 AURA Oversight Council
 API	Application Programming Interface
 AU	deprecated acronym for astronomical unit; use au instead
 AURA	Association of Universities for Research in Astronomy
+AURA Management Council for LSST	,  group reporting to the AURA Board of Directors that oversees the activities of the LSST Project Office and advocates the mission of the LSST
+Alert	A packet of information for each source detected with signal-to-noise ratio > 5 in a difference image during Prompt Processing, containing measurement and characterization parameters based on the past 12 months of LSST observations plus small cutouts of the single-visit, template, and difference images, distributed via the internet
+Alert Production	A component of the Prompt Processing system, the Alert Production system processes and calibrates incoming images, performs Difference Image Analysis to identify DIASources and DIAObjects, and then packages and distributes the resulting Alerts.
+Archive	The repository for documents required by the NSF to be kept. These include documents related to design and development, construction, integration, test, and operations of the LSST observatory system. The archive is maintained using the enterprise content management system DocuShare, which is accessible through a link on the project website www.project.lsst.org
+Association of Universities for Research in Astronomy	 consortium of US institutions and international affiliates that operates world-class astronomical observatories, AURA is the legal entity responsible for managing what it calls independent operating Centers, including LSST, under respective cooperative agreements with the National Science Foundation. AURA assumes fiducial responsibility for the funds provided through those cooperative agreements. AURA also is the legal owner of the AURA Observatory properties in Chile
 B	Byte (8 bit)
 BAO	Baryon Acoustic Oscillations
 BNL	Brookhaven National Laboratory
+Base Facility	The data center located at the Base Site in La Serena, Chile. The Base Facility is composed of the Base portion of the Prompt Enclave directly supporting Observatory operations, the Commissioning Cluster, an Archive Enclave holding data products, and the Chilean Data Access Center
+Broker	Software which receives and redistributes Alerts, and may also perform processing such as filtering for certain characteristics, cross-matching with non-LSST catalogs, and/or light-curve classification, in order to identify and prioritize targets for follow-up and/or make scientific analyses. 
+Builder	Individuals who have accumulated 2 FTE years worth of employment/contributions to the LSST Project
+Business Manager	The person responsible for all business activities of the LSST Project and the LSST Corporation; he or she serves as liaison to AURA CAS, develops and monitors contracts, and serves as the LSST Corporation Secretary
 CAS	Central Administrative Services
 CBP	Collimated Beam Projector
 CC	Change Control
@@ -35,6 +44,20 @@ CPR	Cardiopulmonary resuscitation
 CSA	 Cooperative Support Agreement
 CSDC	Community Science Data Center
 CTIO	Cerro Tololo Inter-American Observatory
+Cadence	The sequence of pointings, visit exposures, and exposure durations performed over the course of a survey
+Calibration Scientist	The person responsible for the system calibration plan who establishes the requirements for the constituent elements of the calibration hardware, software, and operational data. The Calibration Scientist works under the direction of the Systems Engineering group
+Camera	The LSST subsystem responsible for the 3.2-gigapixel LSST camera, which will take more than 800 panoramic images of the sky every night. SLAC leads a consortium of Department of Energy laboratories to design and build the camera sensors, optics, electronics, cryostat, filters and filter exchange mechanism, and camera control system
+Center	An entity managed by AURA that is responsible for execution of a federally funded project
+Central Administrative Services	AURA corporate division responsible for providing accounting, procurement, and business IT support services to AURA centers
+Change Control	The systematic approach to managing all changes to the LSST system, including technical data and policy documentation. The purpose is to ensure that no unnecessary changes are made, all changes are documented, and resources are used efficiently and appropriately
+Change Control Board	Advisory board to the Project Manager; composed of technical and management representatives who recommend approval or disapproval of proposed changes to, deviations from, and waivers to a configuration item's current approved configuration documentation
+Change Control Process	collection of formal documented procedures used to apply technical and administrative direction and monitoring processes to the Project. Proposed changes to items under change control must undergo impact analysis to assess their effect(s) on project cost, schedule and performance capabilities. All changes to items under change control must be approved by the Project Manager, or if certain thresholds apply, by the LSST Director and/or the NSF. See LPM-19
+Charge-Coupled Device	a particular kind of solid-state sensor for detecting optical-band photons. It is composed of a 2-D array of pixels, and one or more read-out amplifiers
+Collimated Beam Projector	The hardware to project a field of sources onto discrete sections of the telescope optics in order to characterize spatial variations in the telescope and instrument transmission function, and to monitor filter throughput evolution during the survey. Images obtained using the CBP will be used in calibration
+Commissioning	A two-year phase at the end of the Construction project during which a technical team a) integrates the various technical components of the three subsystems; b) shows their compliance with ICDs and system-level requirements as detailed in the LSST Observatory System Specifications document (OSS, LSE-30); and c) performs science verification to show compliance with the survey performance specifications as detailed in the LSST Science Requirements Document (SRD, LPM-17)
+Compliance	Adherence to the laws, regulations, award terms and conditions, specifications, and internal policies applicable to the LSST Project
+Construction	The period during which LSST observatory facilities, components, hardware, and software are built, tested, integrated, and commissioned. Construction follows design and development and precedes operations. The LSST construction phase is funded through the NSF MREFC account
+Contract	A binding legal agreement between parties obligating the one (typically the  'seller') to furnish certain supplies or services and the other (typically, the buyer) to compensate the seller for the supplies or services with some form of consideration, (typically money). The term, 'contract' is used interchangeably with 'sub-award' 'agreement' 'memorandum of understanding and/or agreement' and 'purchase order' Each is a term used to differentiate between a purchase-order-format type document and a complex purchase in a subcontract/sub-award-format type document. These also include awards and notices of awards; job orders or task letters issued under basic ordering agreements; letter contracts; orders, such as purchase orders and subcontracts under which the order becomes effective by written acceptance or performance; and bilateral contract modifications
 DAC	Data Access Center
 DAQ	Data Acquisition System
 DDF	Deep Drilling Fields
@@ -43,6 +66,8 @@ DESC	Dark Energy Science Collaboration
 DESI	Dark Energy Spectroscopic Instrument
 DF	Data Facility
 DIA	Difference Image Analysis
+DIAObject	A DIAObject is the association of DIASources, by coordinate, that have been detected with signal-to-noise ratio greater than 5 in at least one difference image. It is distinguished from a regular Object in that its brightness varies in time, and from a SSObject in that it is stationary (non-moving)
+DIASource	A DIASource is a detection with signal-to-noise ratio greater than 5 in a difference image
 DKIST	Daniel K. Inouye Solar Telescope 
 DM	Data Management
 DMCS	Data Management Control System
@@ -61,6 +86,21 @@ DPDD	Data Product Definition Document
 DR	Data Release
 DRP	Data Release Production
 DWDM	Dense Wave Division Multiplex
+Data Access Center	Part of the LSST Data Management System, the US and Chilean DACs will provide authorized access to the released LSST data products, software such as the Science Platform, and computational resources for data analysis. The US DAC also includes a service for distributing bulk data on daily and annual (Data Release) timescales to partner institutions, collaborations, and LSST Education and Public Outreach (EPO). 
+Data Backbone	The software that provides for data registration, retrieval, storage, transport, replication, and provenance capabilities that are compatible with the Data Butler. It allows data products to move between Facilities, Enclaves, and DACs by managing caches of files at each endpoint, including persistence to long-term archival storage (e.g. tape)
+Data Management	The LSST Subsystem responsible for the Data Management System (DMS), which will capture, store, catalog, and serve the LSST dataset to the scientific community and public. The DM team is responsible for the DMS architecture, applications, middleware, infrastructure, algorithms, and Observatory Network Design. DM is a distributed team working at LSST and partner institutions, with the DM Subsystem Manager located at LSST headquarters in Tucson
+Data Management Subsystem	The Data Management Subsystem is one of the four subsystems which constitute the LSST Construction Project. The Data Management Subsystem is responsible for developing and delivering the LSST Data Management System to the LSST Operations Project
+Data Management System	The computing infrastructure, middleware, and applications that process, store, and enable information extraction from the LSST dataset; the DMS will process peta-scale data volume, convert raw images into a faithful representation of the universe, and archive the results in a useful form. The infrastructure layer consists of the computing, storage, networking hardware, and system software. The middleware layer handles distributed processing, data access, user interface, and system operations services. The applications layer includes the data pipelines and the science data archives' products and services
+Data Product	The LSST survey will produce three categories of Data Products. Prompt, Data Release, User Generated. Previously referred to as Levels 1, 2, and 3
+Data Release	The approximately annual reprocessing of all LSST data, and the installation of the resulting data products in the LSST Data Access Centers, which marks the start of the two-year proprietary period
+Data Release Processing	Deprecated term; see Data Release Production
+Data Release Production	An episode of (re)processing all of the accumulated LSST images, during which all output DR data products are generated. These episodes are planned to occur annually during the LSST survey, and the processing will be executed at the Archive Center. This includes Difference Imaging Analysis, generating deep Coadd Images, Source detection and association, creating Object and Solar System Object catalogs, and related metadata
+Department of Energy	cabinet department of the United States federal government; the DOE has assumed technical and financial responsibility for providing the LSST camera. The DOE's responsibilities are executed by a collaboration led by SLAC National Accelerator Laboratory
+Deputy Director	The person who supports the Director in the execution of the overall LSST project and assumes his or her duties and authority during any short term or extended absence, planned or unplanned
+Difference Image Analysis	The detection and characterization of sources in the Difference Image that are above a configurable threshold, done as part of Alert Generation Pipeline
+Director	The person responsible for the overall conduct of the project; the LSST director is charged with ensuring that both the scientific goals and management constraints on the project are met. S/he is the principal public spokesperson for the project in all matters and represents the project to the scientific community, AURA, the member institutions of LSSTC, and the funding agencies
+Document	Any object (in any application supported by DocuShare or design archives such as PDMWorks or GIT) that supports project management or records milestones and deliverables of the LSST Project
+Document Specialist	The person responsible for maintaining the Project's document archive (DocuShare) as well as providing editing and technical writing services. He or she also coordinates administrative support to the Project Management Office and the distributed Project team
 EDC	EPO Data Center
 EFD	Engineering and Facility Database
 EOS	Engineering Operations Services
@@ -69,6 +109,7 @@ EPO	Education and Public Outreach
 EPOC	Education and Public Outreach Center
 ESA	European Space Agency
 ESO	European Southern Observatory
+Education and Public Outreach	The LSST subsystem responsible for the cyberinfrastructure, user interfaces, and outreach programs necessary to connect educators, planetaria, citizen scientists, amateur astronomers, and the general public to the transformative LSST dataset
 FEA	Finite Element Analysis
 FFRDC	Federally Funded Research and Development Center
 FIU	Florida International University
@@ -80,7 +121,9 @@ FPGA	Field-Programmable Gate Array
 FTE	Full-Time Equivalent
 FWP	Field Work Proposals
 FY	Financial Year
-GEANT	pan-European data network for the research and education community
+Filter	A filter in astronomy is an optical element used to restrict the passband of light reaching the focal plane, it transmits a selected range of wavelengths. Filters elements are often named after standard photometric passbands, such as those used in the SDSS survey: u, g, r, i, z
+ForcedSource	DRP table resulting from forced photometry
+Full-Time Equivalent	A unit equivalent to one person working full time for one year with normal holidays, vacations, and sick time. No paid overtime is assumed
 GMT	Giant Magellan Telescope
 GNU	GNU's Not Unix! An operating system and an extensive collection of free computer software
 Gb	Gigabit
@@ -90,6 +133,7 @@ HQ	Head Quarters
 HR	Human Resources
 HTML	HyperText Markup Language
 HVAC	Heating, Ventilation, and Air Conditioning
+Handle	The unique identifier assigned to a document uploaded to DocuShare
 I\&T	Integration and Test
 IAU	International Astronomical Union
 IN2P3	Institut National de Physique Nucléaire et de Physique des Particules
@@ -100,6 +144,7 @@ ISR	Instrument Signal Removal
 IT	Information Technology
 ITC	Information Technology Center
 ITO	IT Operations
+International Affiliate	An organization outside of the United States or Chile such as an institute, university, consortium, or government agency that has agreed to share in the annual operating costs of the LSST in exchange for data rights for a specified list of principal investigators during LSST operations and commissioning. These data rights may include access to specified project resources prior to operations. Rights also come with responsibilities, similar to those required of U.S.-based scientists, regarding unauthorized redistribution of data
 JWST	James Webb Space Telescope (formerly known as NGST)
 K8S	Kubernetes provisioning system
 KPMO	Kitt Peak Mountain Operations
@@ -113,7 +158,9 @@ LPM	LSST Project Management (Document Handle)
 LSE	LSST Systems Engineering (Document Handle)
 LSP	LSST Science Platform
 LSR	LSST System Requirements; LSE-29
-LSST	Large Synoptic Survey Telescope
+LSST	Legacy Survey of Space and Time (formerly Large Synoptic Survey Telescope)
+LSST Corporation	An Arizona 501(c)3 not-for-profit corporation formed in 2003 for the purpose of designing, constructing, and operating the LSST System. During design and development, the Corporation stewarded private funding used for such essential contributions as early site preparation, mirror construction, and early data management system development. During construction, LSSTC will secure private operations funding from international affiliates and play a key role in preparing the scientific community to use the LSST dataset
+LSST Project Office	Official name of the stand-alone AURA operating center responsible for execution of the LSST construction project under the NSF MREFC account
 LSSTC	LSST Corporation
 LSSTPO	LSST Project Office
 M1M3	Primary Mirror Tertiary Mirror
@@ -128,11 +175,12 @@ MSO	Mid-Scale Observatories
 MTBF	Mean Time Between Failures
 MTDC	Modified Total Direct Costs
 MTTR	Mean Time To Repair
+Major Research Equipment and Facility Construction	the NSF account through which large facilities construction projects such as LSST are funded
 NASA	National Aeronautics and Space Administration
 NCSA	National Center for Supercomputing Applications
 NFPA	National Fire Protection Association
 NGSS	Next-Generation Science Standards
-NIR	Near Infra Red
+NIR	Near Infrared
 NMOC	NSF's OIR Lab Management Oversight Council
 NOAO	National Optical Astronomy Observatories (USA)
 NOS	NSF's OIR Lab Operations Services 
@@ -142,7 +190,8 @@ NSF	National Science Foundation
 NSF's OIR Lab	NSF's National Optical-Infrared Astronomy Research Laboratory; \url{https://nationalastro.org}
 NSO	National Solar Observatory
 NTP	Network Time Protocol
-NUV	Near Ultra Violet
+NUV	Near Ultraviolet
+National Science Foundation	primary federal agency supporting research in all fields of fundamental science and engineering; NSF selects and funds projects through competitive, merit-based review
 OC	AURA Observatory Council
 OCS	Observatory Control System
 OI	Organization International
@@ -154,6 +203,11 @@ ORR	Operations Readiness Review
 OS	Operating System
 OSHA	Occupational Safety and Health Administration
 OSS	Observatory System Specifications; LSE-30
+Object	In LSST nomenclature this refers to an astronomical object, such as a star, galaxy, or other physical entity. E.g., comets, asteroids are also Objects but typically called a Moving Object or a Solar System Object (SSObject). One of the DRP data products is a table of Objects detected by LSST which can be static, or change brightness or position with time
+Offer	A response to a solicitation that, if accepted, would bind the offeror to perform the work described in resultant contract. Responses to sealed bidding are offers that are often referred to as 'bids' or 'sealed bids;' responses to a request for proposals (RFP, negotiated-type procurements) are offers often referred to as 'proposals' responses to a request for quotations (RFQ) are not offers and are generally called 'quotes'
+Operations	The 10-year period following construction and commissioning during which the LSST Observatory conducts its survey
+Opportunity	The degree of exposure to an event that might happen to the benefit of a program, project, or other activity. It is described by a combination of the probability that the opportunity event will occur and the consequence of the extent of gain from the occurrence, or impact. There are two levels of opportunities. At the macro level, a project itself is the manifestation of the pursuit of an opportunity. At the element level, tactical opportunities exist, whereby certain events, if realized, provide a cost or schedule savings to the project or increase technical performance
+Opportunity Management	The proactive art and science of planning, assessing, and handling future events to seek favorable impacts on project, cost, schedule, or performance to the extent possible.  Opportunity management is a structured, formal, and disciplined activity focused on the necessary steps and planning actions to determine and exploit opportunities to the extent possible
 PB	PetaByte
 PCW	Project Community Workshop
 PDF	Portable Document Format
@@ -165,11 +219,26 @@ PPE	Personal Protection Equipment
 PRT	Personal Research Time
 PSF	Point Spread Function
 PVI	Processed Visit Image
+Processed Visit Image	A fully-qualified LSST image from a single visit that includes the science pixel array and concomitant data including a quality mask and a variance array, in addition to a PSF characterization and metadata (including calibration metadata) about the image. It is stored with the background already subtracted
+Procurement	The activities involved with or the actual purchase, subcontract, lease, rent, or otherwise acquire supplies or services, and actions associated therewith
+Project Management Office	the work element responsible for achieving the project's objectives
+Project Manager	The person responsible for exercising leadership and oversight over the entire LSST project; he or she controls schedule, budget, and all contingency funds
+Project Scientist	The principal scientific advisor  to the LSST Project Manager to ensure that LSST system specifications are appropriate for achieving the scientific goals of the project; the Project Scientist also works closely with the Systems Engineering group and chairs the LSST Science Council
+Prompt Processing	The data processing which occurs at the Archive Center based on the stream of images coming from the telescope. This includes both Alert Production, which scans the image stream to identify and send alerts on transient and variable sources, and Solar System Processing, which identifies and characterizes objects in our solar system. Prompt Processing generates the Prompt Data Products.
+Prompt Products DataBase	Data products within LSST data releases relating to LSST Alert Production
 QA	Quality Assurance
+Qserv	LSST's distributed parallel database. This database system is used for collecting, storing, and serving LSST Data Release Catalogs and Project metadata, and is part of the Software Stack
+Quality Assurance	All activities, deliverables, services, documents, procedures or artifacts which are designed to ensure the quality of DM deliverables. This may include QC systems, in so far as they are covered in the charge described in LDM-622. Note that contrasts with the LDM-522 definition of “QA” as “Quality Analysis”, a manual process which occurs only during commissioning and operations. See also: Quality Control
+Quality Control	Services and processes which are aimed at measuring and monitoring a system to verify and characterize its performance (as in LDM-522). Quality Control systems run autonomously, only notifying people when an anomaly has been detected. See also Quality Assurance
 RAC	Resource Allocation Committee
 REN	Research and Education Network
 RENATER	Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche
 REUNA	Red Universitaria Nacional
+Raft	The sensors in the LSST camera are packaged into replaceable electronic assemblies, called rafts, consisting of 9 butted sensors (CCDs) in a 3x3 mosaic. Each raft is a replaceable unit in the LSST camera. There are 21 science rafts in the camera plus 4 additional corner rafts with specialized, non-science sensors, making for a total of 189 CCDs per focal plane image. The 21 science rafts are numbered from "0,1" through "0,3", "1,0" through "3,4", and "4,1" through "4,3". (In other words, the 25 combinations from "0,0" through "4,4" minus the four corners which are non-science.)
+Release	Publication of a new version of a document, software, or data product. Depending on context, releases may require approval from Project- or DM-level change control boards, and then form part of the formal project baseline
+Review	Programmatic and/or technical audits of a given component of the project, where a preferably independent committee advises further project decisions, based on the current status and their evaluation of it. The reviews assess technical performance and maturity, as well as the compliance of the design and end product with the stated requirements and interfaces
+Risk	The degree of exposure to an event that might happen to the detriment of a program, project, or other activity. It is described by a combination of the probability that the risk event will occur and the consequence of the extent of loss from the occurrence, or impact. Risk is an inherent part of all activities, whether the activity is simple and small, or large and complex
+Risk Management	The art and science of planning, assessing, and handling future events to avoid unfavorable impacts on project cost, schedule, or performance to the extent possible. Risk management is a structured, formal, and disciplined activity focused on the necessary steps and planning actions to determine and control risks to an acceptable level. Risk Management is an event-based management approach to managing uncertainty
 SAC	Science Advisory Committee
 SAL	Service Access Layer
 SAO	Smithsonian Astrophysical Observatory
@@ -186,7 +255,7 @@ SN	SuperNovae
 SOAR	Southern Astrophysical Research Telescope
 SOC	Science Operations Centre
 SOS	Science Operations Services
-SP	Surrvey Performance
+SP	Survey Performance
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language
 SQuaSH	Science Quality Analysis Harness
@@ -195,14 +264,37 @@ STEM	Science, Technology, Engineering and Math
 STFC	UK Science and Technology Facilities Council
 SV	Science Validation
 SW	Software (also denoted S/W)
+Safety	The control of accidental loss
+Safety Council	A consulting body providing policy advice and evaluation of safety program effectiveness; the council is composed of independent safety professionals and representatives of LSST institutional members
+Safety Manager	The person who manages, executes, and verifies compliance with the LSST Safety Policy (LPM-18); the Safety Manager is also chair of the Safety Council
+Science Advisory Committee	An advisory body which provides a formal and two-way connection to the external science community served by LSST; comprised of scientists familiar with but external to the LSST Project, the SAC advises the LSST Director on both policy questions and technical topics of interest to the Project and the science community
+Science Collaboration	An autonomous body of scientists interested in a particular area of science enabled by the LSST dataset, which through precursor studies, simulations, and algorithm development lays the groundwork for the large-scale science projects the LSST will enable.  In addition to preparing their members to take full advantage of LSST early in its operations phase, the science collaborations have helped to define the system's science requirements, refine and promote the science case, and quality check design and development work
+Science Data Quality Assessment	An analysis system that examines and reports on the quality of LSST data and data products from a scientific perspective, and determines whether the data meets the science requirements in LPM-17
+Science Pipelines	The library of software components and the algorithms and processing pipelines assembled from them that are being developed by DM to generate science-ready data products from LSST images. The Pipelines may be executed at scale as part of LSST Prompt or Data Release processing, or pieces of them may be used in a standalone mode or executed through the LSST Science Platform. The Science Pipelines are one component of the LSST Software Stack
+Science Platform	A set of integrated web applications and services deployed at the LSST Data Access Centers (DACs) through which the scientific community will access, visualize, and perform next-to-the-data analysis of the LSST data products
+Science Quality Analysis Harness	provides a minimal infrastructure for monitoring the LSST verification metrics. It can be used and extended to preserve the code and knowledge developed during LSST construction \url{https://squash.lsst.codes/}
+Science Verification	The second phase of Commissioning for the LSST Construction Project, Science Verification demonstrates the system's compliance with the survey performance specifications detailed in the LSST Science Requirements Document (SRD, LPM-17). These activities are based solely on the measured 'on-sky' performance of the LSST system
+Simonyi Survey Telescope	The telescope at the Rubin Observatory that will perform the LSST (this refers to all physical components: the mirror, the mount assembly, etc.).
+Site Manager	The LSST-delegated representative at the Cerro Pachón, Chile Summit site who is authorized to approve and accept work, provide technical liaison, monitor safety, and interpret LSST plans and specifications on behalf of AURA/LSST
+Sloan Digital Sky Survey	is a digital survey of roughly 10,000 square degrees of sky around the north Galactic pole, plus a ~300 square degree stripe along the celestial equator
+Solar System Object	A solar system object is an astrophysical object that is identified as part of the Solar System: planets and their satellites, asteroids, comets, etc. This class of object had historically been referred to within the LSST Project as Moving Objects
+Solar System Processing	A component of the Prompt Processing system, Solar System Processing identifies new SSObjects using unassociated DIASources.
+Source	A single detection of an astrophysical object in an image, the characteristics for which are stored in the Source Catalog of the DRP database. The association of Sources that are non-moving lead to Objects; the association of moving Sources leads to Solar System Objects. (Note that in non-LSST usage "source" is often used for what LSST calls an Object.)
+Summit	The site on the Cerro Pachón, Chile mountaintop where the LSST observatory, support facilities, and infrastructure will be built
+Summit Facility	The main Observatory and Auxiliary Telescope buildings at the Summit Site on Cerro Pachon, Chile
+Systems Engineer	A member of the Systems Engineering group who works closely with the Systems Engineering Manager and the Systems Scientist on the integrated LSST system's various technical issues spanning the full life cycle of the entire project
+Systems Engineering	an interdisciplinary field of engineering that focuses on how to design and manage complex engineering systems over their life cycles. Issues such as requirements engineering, reliability, logistics, coordination of different teams, testing and evaluation, maintainability and many other disciplines necessary for successful system development, design, implementation, and ultimate decommission become more difficult when dealing with large or complex projects. Systems engineering deals with work-processes, optimization methods, and risk management tools in such projects. It overlaps technical and human-centered disciplines such as industrial engineering, control engineering, software engineering, organizational studies, and project management. Systems engineering ensures that all likely aspects of a project or system are considered, and integrated into a whole
 TAC	Time Allocation Committee
 TB	TeraByte
 TBD	To Be Defined (Determined)
 TCS	Telescope Control System
 TMT	Thirty Meter Telescope
 TOPCAT	Tool for OPerations on Catalogues And Tables
+Task	Tasks are the basic unit of code re-use in the LSST Stack. They perform a well defined, logically contained piece of functionality. Tasks come standard with configuration, logging, processing metadata, and debugging features. For further details, see How to Write a Task in the source code documentation.  Tasks can be nested, providing a natural way to structure - and configure - high level algorithms that delegate work to lower-level algorithms
+Telescope and Site	The LSST subsystem responsible for design and construction of the telescope structure, telescope mirrors, optical wavefront measurement and control system, telescope and observatory control systems software, and the summit and base facilities. The Telescope technical team is hosted by NOAO
+Template	A co-added, single-band image of the sky that is deep, and created in a manner to remove transient or fast moving objects from the final image. Constituent images for templates may be selected from a limited range of quality parameters, such as PSF size or airmass. Such images are used to perform Difference Image Analysis in order to detect variable, transient, and Solar System astrophysical objects
 UKIDSS	UKIRT Infrared Deep Sky Survey
-UKIRT	United Kingdom Infra-Red Telescope
+UKIRT	United Kingdom Infrared Telescope
 URL	Universal Resource Locator
 US	United States
 USDF	United States Data Facility
@@ -210,6 +302,9 @@ UW	University of Washington
 VISTA	Visible and Infrared Survey Telescope for Astronomy
 VLT	Very Large Telescope (ESO)
 VST	VLT Survey Telescope
+Validation	A process of confirming that the delivered system will provide its desired functionality; overall, a validation process includes the evaluation, integration, and test activities carried out at the system level to ensure that the final developed system satisfies the intent and performance of that system in operations
+Verification	The process of evaluating the design, including hardware and software - to ensure the requirements have been met;  verification (of requirements) is performed by test, analysis, inspection, and/or demonstration
+Visit	A sequence of one or more consecutive exposures at a given position, orientation, and filter within the LSST cadence. See Standard Visit, Alternate Standard Visit, and Non-Standard Visit
 W3C	World Wide Web Consortium
 WAN	Wide Area Network
 WBS	Work Breakdown Structure
@@ -218,6 +313,35 @@ WFD	Wide Fast Deep
 WL	Weak gravitational Lens cosmic shear
 WMS	Work Management System
 WOUCAO	Windows on the Universe Center for Astronomy Outreach
+Work Breakdown Structure	a tool that defines and organizes the LSST project's total work scope through the enumeration and grouping of the project's discrete work elements
 XSEDE	Extreme Science and Engineering Discovery Environment
 ZTF	Zwicky Transient Facility
+adaptive moments	The second moments of the source intensity distribution, which are used for measuring source shapes. This approach is close to optimal for measuring the shapes of faint galaxies
+airmass	The pathlength of light from an astrophysical source through the Earth's atmosphere. It is given approximately by sec z, where z is the angular distance from the zenith (the point directly overhead, where airmass = 1.0) to the source
+algorithm	A computational implementation of a calculation or some method of processing
+astrometry	In astronomy, the sub-discipline of astrometry concerns precision measurement of positions (at a reference epoch), and real and apparent motions of astrophysical objects. Real motion means 3-D motions of the object with respect to an inertial reference frame; apparent motions are an artifact of the motion of the Earth. Astrometry per se is sometimes confused with the act of determining a World Coordinate System (WCS), which is a functional characterization of the mapping from pixels in an image or spectrum to world coordinate such as (RA, Dec) or wavelength
 au	astronomical unit
+background	In an image, the background consists of contributions from the sky (e.g., clouds or scattered moonlight), and from the telescope and camera optics, which must be distinguished from the astrophysical background. The sky and instrumental backgrounds are characterized and removed by the LSST processing software using a low-order spatial function whose coefficients are recorded in the image metadata
+calibration	The process of translating signals produced by a measuring instrument such as a telescope and camera into physical units such as flux, which are used for scientific analysis. Calibration removes most of the contributions to the signal from environmental and instrumental factors, such that only the astronomical component remains
+camera	An imaging device mounted at a telescope focal plane, composed of optics, a shutter, a set of filters, and one or more sensors arranged in a focal plane array
+configuration	A task-specific set of configuration parameters, also called a 'config'. The config is read-only; once a task is constructed, the same configuration will be used to process all data. This makes the data processing more predictable: it does not depend on the order in which items of data are processed. This is distinct from arguments or options, which are allowed to vary from one task invocation to the next
+data collection	A data collection in the second-generation (Gen2) Butler (referred to as a data repository in earlier generations) consists of hierarchically organized data files, an inventory or registry of the contents (i.e., metadata from the data files) stored in an sqlite3 file, and a Mapper file that specifies to the LSST Stack software the camera model to apply when accessing the data in the data repository
+declination	Often abbreviated Dec, it is a part of an equatorial coordinate pair that expresses the angular distance (usually expressed in degrees) from the Celestial Equator, measured along great circles that intersect the Equatorial poles. Positions south of the equator are given negative sign
+flux	Shorthand for radiative flux, it is a measure of the transport of radiant energy per unit area per unit time. In astronomy this is usually expressed in cgs units: erg/cm2/s
+footprint	See 'source footprint', 'instrumental footprint', or 'survey footprint', `Footprint` is a Python class representing a source footprint
+forced photometry	A measurement of the photometric properties of a source, or expected source, with one or more parameters held fixed. Most often this means fixing the location of the center of the brightness profile (which may be known or predicted in advance), and measuring other properties such as total brightness, shape, and orientation. Forced photometry will be done for all Objects in the Data Release Production
+middleware	Software that acts as a bridge between other systems or software usually a database or network. Specifically in the Data Management System this refers to Butler for data access and Workflow management for distributed processing.
+monitoring	In DM QA, this refers to the process of collecting, storing, aggregating and visualizing metrics
+passband	The window of wavelength or the energy range admitted by an optical system; specifically the transmission as a function of wavelength or energy. Typically the passband is limited by a filter. The width of the passband may be characterized in a variety of ways, including the width of the half-power points of the transmission curve, or by the equivalent width of a filter with 100% transmission within the passband, and zero elsewhere
+patch	An quadrilateral sub-region of a sky tract, with a size in pixels chosen to fit easily into memory on desktop computers
+photometric redshift	Often abbreviated to photo-z, this is an estimate of the true redshift (of a galaxy) determined from multi-band photometry. Generally determined from a fit of source colors to grid of model SEDs with redshift
+pipeline	A configured sequence of software tasks (Stages) to process data and generate data products. Example: Association Pipeline
+point spread function	The point-spread function (PSF) is the distribution of intensity on a sensor (or image) originating from an unresolved point-source (i.e., a star). Often the PSF is not the same Airy shape as would be expected from a finite-aperture optical system, owing primarily to atmospheric effects and imperfections in the optical system and the detector
+precovery	The process of finding, or putting upper limits on, detections of a newly discovered DIAObject in previously obtained images, typically using forced photometry. Alert Packets will contain precovery data derived from the past 30 days of images that include the location of a new DIAObject
+seeing	An astronomical term for characterizing the stability of the atmosphere, as measured by the width of the point-spread function on images. The PSF width is also affected by a number of other factors, including the airmass, passband, and the telescope and camera optics
+shape	In reference to a Source or Object, the shape is a functional characterization of its spatial intensity distribution, and the integral of the shape is the flux. Shape characterizations are a data product in the DIASource, DIAObject, Source, and Object catalogs
+stack	a grouping, usually in layers (hence stack), of software packages and services to achieve a common goal. Often providing a higher level set of end user oriented services and tools
+survey footprint	The portion of the sky covered by data from an astronomical survey, e.g., the main wide-fast-deep LSST 10-year survey, the LSST deep drilling fields, or the Science Validation data taken during commissioning.  Sometimes represented by Boolean maps or other summary statistics in an all-sky representation, e.g., the IVOA MOC standard
+tracklet	Links between unassociated DIASources within one night to identify moving objects
+tract	A portion of sky, a spherical convex polygon, within the LSST all-sky tessellation (sky map). Each tract is subdivided into sky patches
+transient	A transient source is one that has been detected on a difference image, but has not been associated with either an astronomical object or a solar system body
