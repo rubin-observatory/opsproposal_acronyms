@@ -177,6 +177,7 @@ PCW	Project Community Workshop
 PDF	Portable Document Format
 PI	Principle Investigator
 PMO	Project Management Office
+POE	POly Esters
 POP	Project Operating Plan
 PPDB	Prompt Products DataBase
 PPE	Personal Protection Equipment
@@ -197,6 +198,7 @@ SAC	Science Advisory Committee
 SAL	Service Access Layer
 SAO	Smithsonian Astrophysical Observatory
 SBS	Shared Business Services
+SCOC	Survey Cadence Optimization Committee
 SCOSC	Survey Cadence Optimization Strategy Committee
 SDQA	Science Data Quality Assessment
 SDSS	Sloan Digital Sky Survey
@@ -232,6 +234,7 @@ TC	Thermocouple
 TCS	Telescope Control System
 TMT	Thirty Meter Telescope
 TOPCAT	Tool for OPerations on Catalogues And Tables
+TSIP	 Telescope System Instrumentation Program
 UC	University College
 UHV	Ultra-high vacuum
 UK	United Kingdom
