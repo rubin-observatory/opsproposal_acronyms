@@ -20,6 +20,7 @@ AURA	Association of Universities for Research in Astronomy
 AZ	Arizona
 B	Byte (8 bit)
 BAO	Baryon Acoustic Oscillations
+BI	Broader Impacts
 BNL	Brookhaven National Laboratory
 CAS	Central Administrative Services
 CBP	Collimated Beam Projector
@@ -35,6 +36,7 @@ CERN	European Organization for Nuclear Research
 CFR	Code of Federal Regulations
 CMMS	Computerized Maintenance Management System
 CNRS	Centre national de la recherche scientifique
+CO2	Carbon Dioxide
 COM	Commissioning
 COS	Center Operations Services
 CPR	Cardiopulmonary resuscitation
@@ -190,6 +192,7 @@ RENATER	Réseau National de télécommunications pour la Technologie l’Enseign
 REUNA	Red Universitaria Nacional
 RFP	Request For Proposals
 RFQ	Request For Quotations
+RTD	Resistance Temperature Detector
 SAC	Science Advisory Committee
 SAL	Service Access Layer
 SAO	Smithsonian Astrophysical Observatory
@@ -225,6 +228,7 @@ TAC	Time Allocation Committee
 TAP	Table Access Protocol
 TB	TeraByte
 TBD	To Be Defined (Determined)
+TC	Thermocouple
 TCS	Telescope Control System
 TMT	Thirty Meter Telescope
 TOPCAT	Tool for OPerations on Catalogues And Tables
@@ -246,6 +250,7 @@ WBS	Work Breakdown Structure
 WCAG	Web Content Accessibility Guidelines
 WCS	World Coordinate System
 WFD	Wide Fast Deep
+WIYN	(No longer an acronym - formerly:) Wisconsin, Indiana University, Yale University, NOAO (National Optical Astronomy Observatories) Observatory
 WL	Weak gravitational Lens cosmic shear
 WMS	Work Management System
 WOUCAO	Windows on the Universe Center for Astronomy Outreach

@@ -1,3 +1,5 @@
+CO2: Carbon Dioxide
+BI: Broader Impacts
 UC:University College
 AZ:Arizona
 ST1:Science Theme
