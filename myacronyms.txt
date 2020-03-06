@@ -1,3 +1,11 @@
+UC:University College
+AZ:Arizona
+ST1:Science Theme
+ST2:Science Theme
+ST3:Science Theme
+ST4:Science Theme
+COM:Commissioning
 DP1:Data Preview One
 DP2:Data Preview Two
 TOMS:Telescope Observing Management System
+OIR:Optical infrared
