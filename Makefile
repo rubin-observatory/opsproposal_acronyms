@@ -5,7 +5,7 @@ txt=Draft.txt
 all: acronyms.txt
 
 acronyms.txt :$(txt) myacronyms.txt skipacronyms.txt Draft.txt
-	generateAcronyms.py -t "OPS LSST" -n $(txt) 
+	generateAcronyms.py -t "OPS LSST" -m txt  $(txt) 
 
 
 Draft.txt :

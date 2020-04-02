@@ -11,3 +11,8 @@ DP1:Data Preview One
 DP2:Data Preview Two
 TOMS:Telescope Observing Management System
 OIR:Optical infrared
+ICP:Institutional Capital
+GSRA:Stanford Graduate Student Research Assistant
+LDRD:Lab Directed R&D
+EPO:Experimental Operations Plan
+EOP:Experimental Operations Plan

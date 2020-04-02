@@ -8,12 +8,15 @@ ADQL	Astronomical Data Query Language
 ADS	Astrophysics Data System
 AED	Automated External Defibrillator
 AEON	Alert Event Observatory Network
+ALD	Associate Lab Director
 ALMA	Atacama Large Millimeter Array (ESO)
 AMCL	AURA Management Council for LSST
+AMCR	AURA management Council for Rubin Observatory
 AMPATH	Americas Pathway (Network)
 ANSI	American National Standards Institute
 AOC	 AURA Oversight Council
 AP	Alert Production
+APDB	Alert Production DataBase
 API	Application Programming Interface
 AU	deprecated acronym for astronomical unit; use au instead
 AURA	Association of Universities for Research in Astronomy
@@ -34,12 +37,14 @@ CEE	Communications, Education, and Engagement
 CEP	Cost Estimating Plan
 CERN	European Organization for Nuclear Research
 CFR	Code of Federal Regulations
+CMB	Cosmic Microwave Background
 CMMS	Computerized Maintenance Management System
 CNRS	Centre national de la recherche scientifique
 CO2	Carbon Dioxide
 COM	Commissioning
 COS	Center Operations Services
 CPR	Cardiopulmonary resuscitation
+CPU	Central Processing Unit
 CSA	 Cooperative Support Agreement
 CSDC	Community Science Data Center
 CTIO	Cerro Tololo Inter-American Observatory
@@ -47,7 +52,9 @@ DAC	Data Access Center
 DAQ	Data Acquisition System
 DAX	Data Access Services
 DC	Data Center
+DCM	Directorate Communications Manager
 DDF	Deep Drilling Fields
+DDOS	Distributed Denial Of Service
 DES	Dark Energy Survey
 DESC	Dark Energy Science Collaboration
 DESI	Dark Energy Spectroscopic Instrument
@@ -71,30 +78,36 @@ DPC	Data Policy Committee
 DPDD	Data Product Definition Document
 DR	Data Release
 DRP	Data Release Production
+DUNE	Deep Underground Neutrino Experiment
 DWDM	Dense Wave Division Multiplex
 EDC	EPO Data Center
 EFD	Engineering and Facility Database
+EOP	Experimental Operations Plan
 EOS	Engineering Operations Services
 EPA	Environmental Protection Agency
-EPO	Education and Public Outreach
+EPO	Experimental Operations Plan
 EPOC	Education and Public Outreach Center
 ESA	European Space Agency
 ESNet	Energy Sciences Network
 ESO	European Southern Observatory
 FEA	Finite Element Analysis
 FFRDC	Federally Funded Research and Development Center
+FGST	Fermi Gamma-ray Space Telescope
 FITS	Flexible Image Transport System
 FIU	Florida International University
 FMECA	Failure Modes, Effects, and Causality Analysis
 FOA	Facilities Operations in Arizona
 FOC	Facilities Operations in Chile
 FOH	Facilities Operations in Hawai‘i
+FPD	Fundamental Physics Directorate
 FPGA	Field-Programmable Gate Array
 FTE	Full-Time Equivalent
 FWP	Field Work Proposals
 FY	Financial Year
+GB	Gigabyte
 GMT	Giant Magellan Telescope
 GNU	GNU's Not Unix! An operating system and an extensive collection of free computer software
+GSRA	Stanford Graduate Student Research Assistant
 GW	Gravitational Wave
 Gb	Gigabit
 HEP	 High Energy Physics
@@ -105,6 +118,7 @@ HTML	HyperText Markup Language
 HVAC	Heating, Ventilation, and Air Conditioning
 I\&T	Integration and Test
 IAU	International Astronomical Union
+ICP	Institutional Capital
 IN2P3	Institut National de Physique Nucléaire et de Physique des Particules
 IPAC	No longer an acronym; science and data center at Caltech
 IRSA	Infrared Science Archive
@@ -117,13 +131,18 @@ IVOA	International Virtual-Observatory Alliance
 JOG	Joint Oversight Group
 JWST	James Webb Space Telescope (formerly known as NGST)
 K8S	Kubernetes provisioning system
+KIPAC	Kavli Institute for Particle Astrophysics and Cosmology
 KPMO	Kitt Peak Mountain Operations
 KPNO	Kitt Peak National Observatory
 LBTO	Large Binocular Telescope Observatory
+LCLS	Linac Coherent Light Source
 LDF	LSST Data Facility
 LDM	LSST Data Management (Document Handle)
 LDO	LSST Document Operations (Document Handle)
+LDRD	Lab Directed R&D
+LEP	LSST EPO (Document Handle)
 LHC	Large Hadron Collider (at CERN)
+LLNL	Lawrence Livermore National Laboratory
 LPM	LSST Project Management (Document Handle)
 LSE	LSST Systems Engineering (Document Handle)
 LSP	LSST Science Platform
@@ -131,6 +150,7 @@ LSR	LSST System Requirements; LSE-29
 LSST	Legacy Survey of Space and Time (formerly Large Synoptic Survey Telescope)
 LSSTC	LSST Corporation
 LSSTPO	LSST Project Office
+LZ	LUX-ZEPELIN (Dark Matter Mission)
 M1M3	Primary Mirror Tertiary Mirror
 M2	Secondary Mirror
 MAST	Mikulski Archive for Space Telescopes
@@ -138,6 +158,7 @@ MIE	Major Item of Equipment
 MMT	Multiple Mirror Telescope
 MOA	Memo Of Agreement
 MOC	Multi Ordered Catalogue
+MPO	Memorandum Purchase Order
 MPS	NSF Mathematical and Physical Sciences directorate
 MPS/AST	NSF Mathematical and Physical Sciences directorate’s Division of Astronomical Sciences
 MREFC	Major Research Equipment and Facility Construction
@@ -150,13 +171,13 @@ NCSA	National Center for Supercomputing Applications
 NFPA	National Fire Protection Association
 NGSS	Next-Generation Science Standards
 NIR	Near Infrared
+NIST	National Institute of Standards and Technology (USA)
 NMOC	NSF's OIR Lab Management Oversight Council
 NOAO	National Optical Astronomy Observatories (USA)
 NOS	NSF's OIR Lab Operations Services 
 NRAO	National Radio Astronomy Observatory
 NRC	National Research Council
 NSF	National Science Foundation
-NSF's OIR Lab	NSF's National Optical-Infrared Astronomy Research Laboratory; \url{https://nationalastro.org}
 NSO	National Solar Observatory
 NTP	Network Time Protocol
 NUV	Near Ultraviolet
@@ -174,6 +195,7 @@ OSHA	Occupational Safety and Health Administration
 OSS	Observatory System Specifications; LSE-30
 PB	PetaByte
 PCW	Project Community Workshop
+PD	Program Development
 PDF	Portable Document Format
 PI	Principle Investigator
 PMO	Project Management Office
@@ -181,7 +203,9 @@ POE	POly Esters
 POP	Project Operating Plan
 PPDB	Prompt Products DataBase
 PPE	Personal Protection Equipment
+PRC	Procurement Charge
 PRT	Personal Research Time
+PS	Project Scientist
 PSF	Point Spread Function
 PVI	Processed Visit Image
 QA	Quality Assurance
@@ -214,8 +238,10 @@ SOAR	Southern Astrophysical Research Telescope
 SOC	Science Operations Centre
 SOS	Science Operations Services
 SP	Survey Performance
+SPI	Schedule Performance Index
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language
+SQR	SQuARE document handle
 SQuaSH	Science Quality Analysis Harness
 SRD	LSST Science Requirements; LPM-17
 ST1	Science Theme
