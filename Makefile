@@ -8,10 +8,9 @@ acronyms.txt :$(txt) myacronyms.txt skipacronyms.txt Draft.txt
 	generateAcronyms.py -t "OPS LSST" -m txt  $(txt) 
 
 
-Draft.txt :
+Draft.txt : 
 	python3 grabDoc.py  > Draft.txt
 
 
 push:
-	cp acronyms.txt /Users/womullan/Google\ Drive/LSST\ Operations/Proposals/2020\ Operations\ Proposal 
-
+	cp acronyms.txt  /Users/womullan/Google\ Drive/Rubin\ Operations/Planning\ \(WBS\,\ Milestones\,\ POPs\ and\ more\)/

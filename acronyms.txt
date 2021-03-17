@@ -20,11 +20,13 @@ APDB	Alert Production DataBase
 API	Application Programming Interface
 AU	deprecated acronym for astronomical unit; use au instead
 AURA	Association of Universities for Research in Astronomy
+AVS	 Alert Vetting System
 AZ	Arizona
 B	Byte (8 bit)
 BAO	Baryon Acoustic Oscillations
 BI	Broader Impacts
 BNL	Brookhaven National Laboratory
+BOE	Basis of Estimate
 CAS	Central Administrative Services
 CBP	Collimated Beam Projector
 CC	Change Control
@@ -32,10 +34,12 @@ CC-IN2P3	Centre de Calcul de l'IN2P3
 CCB	Change Control Board
 CCD	Charge-Coupled Device
 CCS	Camera Control System
+CE	Communications Engagement
 CEC	International in-kind Contribution Evaluation Committee
 CEE	Communications, Education, and Engagement
 CEP	Cost Estimating Plan
 CERN	European Organization for Nuclear Research
+CET	Community Engagement Team
 CFR	Code of Federal Regulations
 CMB	Cosmic Microwave Background
 CMMS	Computerized Maintenance Management System
@@ -45,9 +49,10 @@ COM	Commissioning
 COS	Center Operations Services
 CPR	Cardiopulmonary resuscitation
 CPU	Central Processing Unit
-CSA	 Cooperative Support Agreement
+CSA	Cooperative Support Agreement
 CSDC	Community Science Data Center
 CTIO	Cerro Tololo Inter-American Observatory
+ComCam	The commissioning camera is a single-raft, 9-CCD camera that will be installed in LSST during commissioning, before the final camera is ready.
 DAC	Data Access Center
 DAQ	Data Acquisition System
 DAX	Data Access Services
@@ -73,6 +78,7 @@ DOT	U.S. Department of Transportation
 DP	Data Production
 DP1	Data Preview One
 DP2	Data Preview Two
+DPA	Data and Processing Architecture
 DPAC	Data Processing and Analysis Consortium (Gaia)
 DPC	Data Policy Committee
 DPDD	Data Product Definition Document
@@ -96,6 +102,7 @@ FGST	Fermi Gamma-ray Space Telescope
 FITS	Flexible Image Transport System
 FIU	Florida International University
 FMECA	Failure Modes, Effects, and Causality Analysis
+FNAL	Fermi National Accelerator Lab
 FOA	Facilities Operations in Arizona
 FOC	Facilities Operations in Chile
 FOH	Facilities Operations in Hawai‘i
@@ -104,6 +111,7 @@ FPGA	Field-Programmable Gate Array
 FTE	Full-Time Equivalent
 FWP	Field Work Proposals
 FY	Financial Year
+FrDF	French Data Facility
 GB	Gigabyte
 GMT	Giant Magellan Telescope
 GNU	GNU's Not Unix! An operating system and an extensive collection of free computer software
@@ -112,6 +120,7 @@ GW	Gravitational Wave
 Gb	Gigabit
 HEP	 High Energy Physics
 HPC	High Performance Computing
+HPO	Head of Program Operations 
 HQ	Head Quarters
 HR	Human Resources
 HTML	HyperText Markup Language
@@ -145,7 +154,7 @@ LHC	Large Hadron Collider (at CERN)
 LLNL	Lawrence Livermore National Laboratory
 LPM	LSST Project Management (Document Handle)
 LSE	LSST Systems Engineering (Document Handle)
-LSP	LSST Science Platform
+LSP	LSST Science Platform (now Rubin Science Platform)
 LSR	LSST System Requirements; LSE-29
 LSST	Legacy Survey of Space and Time (formerly Large Synoptic Survey Telescope)
 LSSTC	LSST Corporation
@@ -183,6 +192,7 @@ NTP	Network Time Protocol
 NUV	Near Ultraviolet
 OC	AURA Observatory Council
 OCS	Observatory Control System
+OH	OverHead
 OI	Organization International
 OIR	Optical infrared
 OMB	Office of Management and Budget
@@ -199,6 +209,7 @@ PD	Program Development
 PDF	Portable Document Format
 PI	Principle Investigator
 PMO	Project Management Office
+PO	Program Operations
 POE	POly Esters
 POP	Project Operating Plan
 PPDB	Prompt Products DataBase
@@ -212,14 +223,18 @@ QA	Quality Assurance
 QC	Quality Control
 RA	Right Ascension
 RAC	Resource Allocation Committee
+RDP	Rubin Data Production
 REN	Research and Education Network
 RENATER	Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche
+REO	Rubin Education and Outreach
 REUNA	Red Universitaria Nacional
 RFP	Request For Proposals
 RFQ	Request For Quotations
+ROO	Rubin Observatory Operations
+RPF	Rubin system PerFormance
 RTD	Resistance Temperature Detector
 SAC	Science Advisory Committee
-SAL	Service Access Layer
+SAL	Service Abstraction Layer
 SAO	Smithsonian Astrophysical Observatory
 SBS	Shared Business Services
 SCOC	Survey Cadence Optimization Committee
@@ -231,13 +246,13 @@ SHE	Safety, Health, and Environmental
 SIA	Simple Image Access
 SIT	System Integration, Test
 SIT-COM	System Integration, Test and Commissioning
-SLAC	SLAC National Accelerator Laboratory (formerly Stanford Linear Accelerator Center; SLAC is now no longer an acronym)
+SLAC	SLAC National Accelerator Laboratory
 SMARTS	Small and Moderate Aperture Research Telescope System
 SN	SuperNovae
 SOAR	Southern Astrophysical Research Telescope
 SOC	Science Operations Centre
 SOS	Science Operations Services
-SP	Survey Performance
+SP	System PerFormance
 SPI	Schedule Performance Index
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language
@@ -250,6 +265,7 @@ ST3	Science Theme
 ST4	Science Theme
 STEM	Science, Technology, Engineering and Math
 STFC	UK Science and Technology Facilities Council
+SU	Stanford University
 SV	Science Validation
 SW	Software (also denoted S/W)
 TAC	Time Allocation Committee
@@ -264,6 +280,7 @@ TSIP	 Telescope System Instrumentation Program
 UC	University College
 UHV	Ultra-high vacuum
 UK	United Kingdom
+UKDF	United Kingdom Data Facility
 UKIDSS	UKIRT Infrared Deep Sky Survey
 UKIRT	United Kingdom Infrared Telescope
 URL	Universal Resource Locator
@@ -272,6 +289,7 @@ USDF	United States Data Facility
 UW	University of Washington
 VISTA	Visible and Infrared Survey Telescope for Astronomy
 VLT	Very Large Telescope (ESO)
+VO	Virtual Observatory
 VST	VLT Survey Telescope
 W3C	World Wide Web Consortium
 WAN	Wide Area Network
