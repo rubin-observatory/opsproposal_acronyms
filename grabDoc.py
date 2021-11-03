@@ -28,7 +28,6 @@ SCOPES = 'https://www.googleapis.com/auth/documents.readonly'
 DISCOVERY_DOC = 'https://docs.googleapis.com/$discovery/rest?version=v1'
 DOCUMENT_ID = '1m3JMO3dADFwBYXjLjD41kIs7cZjqtoeSTm3tHrCujsM'
 
-
 def get_credentials():
     """Gets valid user credentials from storage.
 

@@ -13,6 +13,7 @@ ALMA	Atacama Large Millimeter Array (ESO)
 AMCL	AURA Management Council for LSST
 AMCR	AURA management Council for Rubin Observatory
 AMPATH	Americas Pathway (Network)
+AMPEL	Alert Management
 ANSI	American National Standards Institute
 AOC	 AURA Oversight Council
 AP	Alert Production
@@ -21,12 +22,15 @@ API	Application Programming Interface
 AU	deprecated acronym for astronomical unit; use au instead
 AURA	Association of Universities for Research in Astronomy
 AVS	 Alert Vetting System
+AWS	Amazon Web Services
 AZ	Arizona
 B	Byte (8 bit)
 BAO	Baryon Acoustic Oscillations
 BI	Broader Impacts
 BNL	Brookhaven National Laboratory
 BOE	Basis of Estimate
+BSR	Business Systems Review
+CALTECH	California Institute of Technology
 CAS	Central Administrative Services
 CBP	Collimated Beam Projector
 CC	Change Control
@@ -34,22 +38,26 @@ CC-IN2P3	Centre de Calcul de l'IN2P3
 CCB	Change Control Board
 CCD	Charge-Coupled Device
 CCS	Camera Control System
-CE	Communications Engagement
 CEC	International in-kind Contribution Evaluation Committee
 CEE	Communications, Education, and Engagement
 CEP	Cost Estimating Plan
 CERN	European Organization for Nuclear Research
 CET	Community Engagement Team
+CFO	Chief Financial Officer
 CFR	Code of Federal Regulations
 CMB	Cosmic Microwave Background
 CMMS	Computerized Maintenance Management System
+CMS	Compact Muon Solenoid
 CNRS	Centre national de la recherche scientifique
 CO2	Carbon Dioxide
 COM	Commissioning
 COS	Center Operations Services
+COVID	COrona VIrus Disease
+COVID19	COrona VIrus Disease 2019
 CPR	Cardiopulmonary resuscitation
 CPU	Central Processing Unit
 CSA	Cooperative Support Agreement
+CSC	Commandable SAL Component
 CSDC	Community Science Data Center
 CTIO	Cerro Tololo Inter-American Observatory
 ComCam	The commissioning camera is a single-raft, 9-CCD camera that will be installed in LSST during commissioning, before the final camera is ready.
@@ -60,6 +68,7 @@ DC	Data Center
 DCM	Directorate Communications Manager
 DDF	Deep Drilling Fields
 DDOS	Distributed Denial Of Service
+DEI	Diversity, Equity, and Inclusion
 DES	Dark Energy Survey
 DESC	Dark Energy Science Collaboration
 DESI	Dark Energy Spectroscopic Instrument
@@ -82,6 +91,7 @@ DPA	Data and Processing Architecture
 DPAC	Data Processing and Analysis Consortium (Gaia)
 DPC	Data Policy Committee
 DPDD	Data Product Definition Document
+DPLT	DP Leadership Team
 DR	Data Release
 DRP	Data Release Production
 DUNE	Deep Underground Neutrino Experiment
@@ -89,13 +99,13 @@ DWDM	Dense Wave Division Multiplex
 EDC	EPO Data Center
 EFD	Engineering and Facility Database
 EOP	Experimental Operations Plan
-EOS	Engineering Operations Services
 EPA	Environmental Protection Agency
 EPO	Experimental Operations Plan
 EPOC	Education and Public Outreach Center
 ESA	European Space Agency
 ESNet	Energy Sciences Network
 ESO	European Southern Observatory
+ESP	Early Science Program
 FEA	Finite Element Analysis
 FFRDC	Federally Funded Research and Development Center
 FGST	Fermi Gamma-ray Space Telescope
@@ -127,9 +137,14 @@ HTML	HyperText Markup Language
 HVAC	Heating, Ventilation, and Air Conditioning
 I\&T	Integration and Test
 IAU	International Astronomical Union
+ICD	Interface Control Document
 ICP	Institutional Capital
+IDAC	Independent Data Access Center
+IDF	Interim Data Facility
 IN2P3	Institut National de Physique Nucléaire et de Physique des Particules
 IPAC	No longer an acronym; science and data center at Caltech
+IPC	International Program Coordinator
+IRIS	e-Infrastructure for Research and Innovation for STFC
 IRSA	Infrared Science Archive
 ISO	International Standards Organisation
 ISR	Instrument Signal Removal
@@ -140,9 +155,13 @@ IVOA	International Virtual-Observatory Alliance
 JOG	Joint Oversight Group
 JWST	James Webb Space Telescope (formerly known as NGST)
 K8S	Kubernetes provisioning system
+KASI	Korea Astronomy and Space Science Institute
 KIPAC	Kavli Institute for Particle Astrophysics and Cosmology
 KPMO	Kitt Peak Mountain Operations
 KPNO	Kitt Peak National Observatory
+L1	Lens 1
+L2	Lens 2
+L3	Lens 3
 LBTO	Large Binocular Telescope Observatory
 LCLS	Linac Coherent Light Source
 LDF	LSST Data Facility
@@ -151,7 +170,9 @@ LDO	LSST Document Operations (Document Handle)
 LDRD	Lab Directed R&D
 LEP	LSST EPO (Document Handle)
 LHC	Large Hadron Collider (at CERN)
+LINCC	LSST Interdisciplinary Network for Collaboration and Computing
 LLNL	Lawrence Livermore National Laboratory
+LMC	Large Magellanic Cloud
 LPM	LSST Project Management (Document Handle)
 LSE	LSST Systems Engineering (Document Handle)
 LSP	LSST Science Platform (now Rubin Science Platform)
@@ -160,13 +181,18 @@ LSST	Legacy Survey of Space and Time (formerly Large Synoptic Survey Telescope)
 LSSTC	LSST Corporation
 LSSTPO	LSST Project Office
 LZ	LUX-ZEPELIN (Dark Matter Mission)
+M1	primary mirror
 M1M3	Primary Mirror Tertiary Mirror
 M2	Secondary Mirror
+M3	tertiary mirror
+MAF	Metric Analysis Framework
 MAST	Mikulski Archive for Space Telescopes
+MC	Monte-Carlo (simulation/process)
 MIE	Major Item of Equipment
 MMT	Multiple Mirror Telescope
 MOA	Memo Of Agreement
 MOC	Multi Ordered Catalogue
+MOU	Memo Of Understanding
 MPO	Memorandum Purchase Order
 MPS	NSF Mathematical and Physical Sciences directorate
 MPS/AST	NSF Mathematical and Physical Sciences directorate’s Division of Astronomical Sciences
@@ -177,10 +203,12 @@ MTDC	Modified Total Direct Costs
 MTTR	Mean Time To Repair
 NASA	National Aeronautics and Space Administration
 NCSA	National Center for Supercomputing Applications
+NEO	Near-Earth Object
 NFPA	National Fire Protection Association
 NGSS	Next-Generation Science Standards
 NIR	Near Infrared
 NIST	National Institute of Standards and Technology (USA)
+NLT	NOIRLab Leadership Team
 NMOC	NSF's OIR Lab Management Oversight Council
 NOAO	National Optical Astronomy Observatories (USA)
 NOS	NSF's OIR Lab Operations Services 
@@ -207,10 +235,12 @@ PB	PetaByte
 PCW	Project Community Workshop
 PD	Program Development
 PDF	Portable Document Format
+PHA	potentially hazardous asteroids
 PI	Principle Investigator
 PMO	Project Management Office
 PO	Program Operations
 POE	POly Esters
+POI	Point Of Interest
 POP	Project Operating Plan
 PPDB	Prompt Products DataBase
 PPE	Personal Protection Equipment
@@ -223,7 +253,9 @@ QA	Quality Assurance
 QC	Quality Control
 RA	Right Ascension
 RAC	Resource Allocation Committee
+RDO	Rubin Directors Office
 RDP	Rubin Data Production
+REB	Readout Electronics Board
 REN	Research and Education Network
 RENATER	Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche
 REO	Rubin Education and Outreach
@@ -231,8 +263,13 @@ REUNA	Red Universitaria Nacional
 RFP	Request For Proposals
 RFQ	Request For Quotations
 ROO	Rubin Observatory Operations
+ROP	Rubin Operations Plan
 RPF	Rubin system PerFormance
+RSP	Rubin Science Platform
+RSS	square root of the sum of the squares
 RTD	Resistance Temperature Detector
+RTM	Raft Tower Module
+RTN	Rubin Technical Note
 SAC	Science Advisory Committee
 SAL	Service Abstraction Layer
 SAO	Smithsonian Astrophysical Observatory
@@ -245,20 +282,24 @@ SEWG	Survey Evaluation Working Group
 SHE	Safety, Health, and Environmental
 SIA	Simple Image Access
 SIT	System Integration, Test
-SIT-COM	System Integration, Test and Commissioning
+SITCOM	System Integration, Test and Commissioning
 SLAC	SLAC National Accelerator Laboratory
 SMARTS	Small and Moderate Aperture Research Telescope System
+SMC	Small Magellanic Cloud
 SN	SuperNovae
+SNAPS	Solar System Notification Alert Processing System
+SNR	Signal to Noise Ratio
 SOAR	Southern Astrophysical Research Telescope
-SOC	Science Operations Centre
-SOS	Science Operations Services
+SOC	Security Operations Centre
 SP	System PerFormance
 SPI	Schedule Performance Index
 SPIE	The international society for optics and photonics
 SQL	Structured Query Language
 SQR	SQuARE document handle
+SQuaRE	Science Quality and Reliability Engineering
 SQuaSH	Science Quality Analysis Harness
 SRD	LSST Science Requirements; LPM-17
+SSO	Solar System Object
 ST1	Science Theme
 ST2	Science Theme
 ST3	Science Theme
@@ -274,7 +315,9 @@ TB	TeraByte
 TBD	To Be Defined (Determined)
 TC	Thermocouple
 TCS	Telescope Control System
+TMA	Telescope Mount Assembly
 TMT	Thirty Meter Telescope
+TNO	trans-Neptunian object
 TOPCAT	Tool for OPerations on Catalogues And Tables
 TSIP	 Telescope System Instrumentation Program
 UC	University College
@@ -290,10 +333,12 @@ UW	University of Washington
 VISTA	Visible and Infrared Survey Telescope for Astronomy
 VLT	Very Large Telescope (ESO)
 VO	Virtual Observatory
+VPN	virtual private network
 VST	VLT Survey Telescope
 W3C	World Wide Web Consortium
 WAN	Wide Area Network
 WBS	Work Breakdown Structure
+WCA	Workplace Culture Advocate
 WCAG	Web Content Accessibility Guidelines
 WCS	World Coordinate System
 WFD	Wide Fast Deep
@@ -303,4 +348,6 @@ WMS	Work Management System
 WOUCAO	Windows on the Universe Center for Astronomy Outreach
 XSEDE	Extreme Science and Engineering Discovery Environment
 ZTF	Zwicky Transient Facility
+arcsec	arcsecond second of arc (unit of angle)
 au	astronomical unit
+deg	degree; unit of angle
